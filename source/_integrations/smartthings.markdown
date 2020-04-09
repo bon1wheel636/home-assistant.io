@@ -76,6 +76,13 @@ The SmartThings integration is configured exclusively through the front-end. Man
 1. From the Home Assistant front-end, navigate to 'Configuration' then 'Integrations'. Under 'Set up a new integration' locate 'SmartThings' and click 'Configure'.
 2. Enter the personal access token created above and click 'Submit'
 3. When prompted, install the SmartApp:
+
+<div class='note info'>
+
+To install the SmartThings SmartApp ensure your device is not on WiFi.  The device must be utilizing your mobile network.
+
+</div>
+
     1. Open the SmartThings Classic mobile app. Navigate to 'Automation' and select the 'SmartApps' tab.
     2. Click 'Add a SmartApp', scroll to the bottom, and select 'My Apps', then choose 'Home Assistant'.
     3. Optionally change the display name and press 'Done'
